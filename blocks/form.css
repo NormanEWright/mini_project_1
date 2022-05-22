@@ -42,15 +42,9 @@
 }
 
 /* On mouseover, show yellow filled star */
-.form__label:hover .form__input~.form__radio-btn {
-  background-image: url('../images/star-filled.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
+.form__label:hover .form__input ~ .form__radio-btn,
 /* Show yellow filled star when radio button is checked */
-.form__label .form__input:checked~.form__radio-btn {
+.form__label .form__input:checked ~ .form__radio-btn {
   background-image: url('../images/star-filled.svg');
   background-repeat: no-repeat;
   background-position: center;
