@@ -41,3 +41,10 @@
   background-size: contain;
 }
 
+/* On mouseover, show yellow filled star */
+.form__label:hover .form__input ~ .form__radio-btn {
+  background-image: url('../images/star-filled.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
