@@ -1,0 +1,43 @@
+.form {
+  padding: 20px;
+  position: relative;
+}
+
+/* Form label acts as a container */
+.form__label {
+  position: relative;
+  display: block;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.form__input {
+  margin-right: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create custom radio button using a star svg */
+.form__radio-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: transparent;
+  background-image: url('../images/star-outlined.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
